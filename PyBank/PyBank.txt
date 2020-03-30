@@ -1,0 +1,7 @@
+Financial analysis
+-------------------------------------------
+Total months: 86
+Total Growth: $ 38382578
+Average change per month 7803.476744186047
+Greatest increase in profit was on index 25 for $ 1926159
+Greatest decrease in profet was on index 44 for $ -2196167

@@ -64,7 +64,7 @@ print("Congratulations",winning_candidate,"! Serve is well!")
 
 #Export to .txt file
 #open a txt file to write in
-open("PyPoll.txt","w")
+f = open("PyPoll.txt","w+")
 #put in the statements I wish to write
 print("Results", file=f)
 print("-------------------------------------------", file=f)

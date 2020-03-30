@@ -49,7 +49,7 @@ print("Greatest increase in profit was on index", greatest_increase_date,"for $"
 print("Greatest decrease in profet was on index",greatest_decrease_date,"for $", greatest_decrease)
 #export to .txt file
 #open a txt file
-open("PyBank.txt","w")
+f = open("PyBank.txt","w+")
 print("Financial analysis", file=f)
 print("-------------------------------------------", file=f)
 print("Total months:",totmonths, file=f)
