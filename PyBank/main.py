@@ -48,4 +48,12 @@ print("Average change per month",avg_change)
 print("Greatest increase in profit was on index", greatest_increase_date,"for $", greatest_increase)
 print("Greatest decrease in profet was on index",greatest_decrease_date,"for $", greatest_decrease)
 #export to .txt file
-   
+#open a txt file
+open("PyBank.txt","w")
+print("Financial analysis", file=f)
+print("-------------------------------------------", file=f)
+print("Total months:",totmonths, file=f)
+print("Total Growth: $",period_growth, file=f)
+print("Average change per month",avg_change, file=f)
+print("Greatest increase in profit was on index", greatest_increase_date,"for $", greatest_increase, file=f)
+print("Greatest decrease in profet was on index",greatest_decrease_date,"for $", greatest_decrease, file=f)

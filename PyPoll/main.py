@@ -63,5 +63,18 @@ print("-------------------------------------------")
 print("Congratulations",winning_candidate,"! Serve is well!")
 
 #Export to .txt file
-
+#open a txt file to write in
+open("PyPoll.txt","w")
+#put in the statements I wish to write
+print("Results", file=f)
+print("-------------------------------------------", file=f)
+print("There were",total_votes,"total votes")
+print("-------------------------------------------", file=f)
+print("Khan had", khan_percentage,"% of the votes",khan, file=f)
+print("Correy had",correy_percentage,"% of the votes",correy, file=f)
+print("Li had", li_percentage,"% of the votes",correy, file=f)
+print("O'Tooley had", otooley_percentage,"% of the votes",otooley, file=f)
+print("-------------------------------------------", file=f)
+print("Congratulations",winning_candidate,"! Serve is well!", file=f)
+f.close()
 
